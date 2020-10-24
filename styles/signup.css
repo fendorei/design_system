@@ -4,23 +4,30 @@ body{
   margin: 0;
   padding: 0;
   background-image: linear-gradient(to right,#00FFE6 0%,#00FFE6 50%, #6F29FF 100%);
+  font-family: Montserrat;
 }
 
 .container{
   width: 75%;
   margin: 5% auto;
   display: flex;
+  background-color: #eee;
+  box-shadow:7px 4px 19px -2px rgba(0,0,0,0.75);
 }
 
 .container img {
   width: 40%;
 }
 
-form{
+.formContainer {
   width: 60%;
   padding: 1px;
-  background-color: #eee;
-  box-shadow:7px 4px 19px -2px rgba(0,0,0,0.75);
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer form{
+  margin: 0;
 }
 
 .inputBar{
@@ -35,6 +42,7 @@ form{
   padding: 10px 1px 10px 33px;
   margin-left: 20%;
   border: none;
+  font-family: Montserrat;
   font-size: 12px;
   border: none;
   z-index: 1;
@@ -68,5 +76,16 @@ h1 {
 }
 
 .terms{
-  margin-left: 33%;
+  margin-left: 29%;
+  margin-top: -5%;
+}
+
+label {
+  font-size: 14px;
+}
+
+.signin{
+  margin-left: 29%;
+  margin-bottom: 3%;
+  font-size: 14px;
 }
