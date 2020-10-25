@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <Title>Design System</Title>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width-device-widht, initial-scale=1.0"/>
+            <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
+            <link rel="stylesheet" href="Signin.css"/>
+        </head>
+        <body>
+            
+        <div class="Container">
+           <div class="formcontainer">
+                <div class="slidesection">
+                    <img src="Image1.jpg" alt="Description image" />
+                </div>
+                <form class="formsection" id="Login1">
+                        <h1>SIGN IN</h1>
+                        <div class="inputRow">
+                            <div class="inputicon">
+                                <i class='bx bxs-envelope'></i>
+                            </div>
+                            <input type="email"  id="email"  placeholder="EMAIL"required/>
+                        </div>
+                        <div class="inputRow">
+                            <div class="inputicon">
+                               <i class='bx bxs-lock'></i>
+                            </div>
+                            <input type="password" minlength="8"  id="Mdp"  placeholder="PASSWORD" required/>
+                        </div>
+                        <div class="Row">
+                            <div class="col">
+                                <input type="radio" name="SeSouvenir"  id="SeSouvenir"/>
+                                <label for="SeSouvenir">Remember me.</label>
+                            </div>
+                            <a href="Reset.html">Forgot your Password ?</a>
+                        </div>
+                        <div class="btnRow">
+                            <input type="submit" value="LOGIN" class="submit" id="loginbtn"/>
+                        </div>
+                        <div class="warning">
+                            <a href="Signup.html">Create an account</a>
+                        </div>
+                </form>
+                <p style="color:red;" id="erreur"></p>
+           </div> 
+        </div>
+        <script src="Doc1.js"></script>
+        </body>
+    </html>
