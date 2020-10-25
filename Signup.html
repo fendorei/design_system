@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <Title>Design System</Title>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width-device-widht, initial-scale=1.0"/>
+            <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
+            <link rel="stylesheet" href="Signup.css"/>
+        </head>
+        <body>
+            
+        <div class="Container">
+           <div class="formcontainer">
+                <div class="slidesection">
+                    <img src="Image 2.jpg" alt="Description image" />
+                </div>
+                <form class="formsection" id="Login2">
+                    <h1>SIGN UP</h1>
+                    <div class="inputRow">
+                        <div class="inputicon">
+                            <i class='bx bxs-user'></i>
+                        </div>
+                        <input type="pseudo"   id="pseudo"  placeholder="USERNAME" required/>
+                    </div>
+                    <div class="inputRow">
+                        <div class="inputicon">
+                            <i class='bx bxs-envelope'></i>
+                        </div>
+                        <input type="email" id="email"  placeholder="EMAIL" required/>
+                    </div>
+                    <div class="inputRow">
+                        <div class="inputicon">
+                            <i class='bx bxs-phone'></i>
+                        </div>
+                        <input type="tel" minlength="9" maxlength="13" id="Tel"  placeholder="Phone" required/>
+                    </div>
+                    <div class="inputRow">
+                        <div class="inputicon">
+                            <i class='bx bxs-cake'></i>
+                        </div>
+                        <input type="number"  id="age"  placeholder="Age" required/>
+                    </div>
+                    
+                    <div class="inputRow">
+                        <div class="inputicon">
+                           <i class='bx bxs-lock'></i>
+                        </div>
+                        <input type="password" id="Mdp" minlength="8" placeholder="PASSWORD"required/>
+                    </div>
+                    <div class="Row">
+                        <div class="col">
+                            <input type="radio" name="terms"  id="terms" required/>
+                            <label for="terms">I accept the <a href="terms.html">terms and  conditions</a></label>
+                        </div>
+                    </div>
+                    <div class="btnRow">
+                        <input type="submit" value="CREATE" class="submit" id="loginbtn"/>
+                    </div>
+                    <div class="warning">
+                        <h5><a href="Signin.html">I already have an account</a></h5>
+                    </div>
+                    
+                </form>
+           </div> 
+        </div>
+        <script src="Doc2.js"></script>
+        </body>
+    </html>
