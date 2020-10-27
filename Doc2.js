@@ -3,9 +3,9 @@ document.getElementById("Login2").addEventListener("submit", function(e){
     alert("You signed up Successfully, you can now sign in to your account!");
 });
 
-let username = document.getElementById("pseudo")
-localStorage.setItem("username", username.value)
-let email = document.getElementById("email")
-localStorage.setItem("email", email.value)
-let password = document.getElementById("mdp")
-localStorage.setItem("password", password.value)
+function store() {
+  let email = document.getElementById("email")
+  localStorage.setItem("email", email.value)
+  let password = document.getElementById("mdp")
+  localStorage.setItem("password", password.value)
+}
