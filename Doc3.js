@@ -12,5 +12,7 @@ function check() {
     alert("This email is not registered")
   } else if (password != newPassword) {
     alert("Your passwords don't match")
+  } else {
+    localStorage.setItem("password", password.value)
   }
 }
